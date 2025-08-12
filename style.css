@@ -52,7 +52,7 @@ body {
     margin: 0;
 }
 #modal-login{
-    
+    transition: all 0s;
     backdrop-filter: blur(6px);
     overflow: hidden;
     width: 500px;
