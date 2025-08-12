@@ -1,4 +1,4 @@
-const openButtons = document.querySelectorAll('.container-animal .animais-slogan .titulo-animal .open-modal')
+const openButtons = document.querySelectorAll('.open-modal')
 
 openButtons.forEach(button => {
     button.addEventListener('click', () => {
@@ -19,6 +19,11 @@ closeButtons.forEach(button => {
         modal.close()
     });
 });
+
+
+
+
+
 
 const header = document.getElementById('cabecalho');
 
