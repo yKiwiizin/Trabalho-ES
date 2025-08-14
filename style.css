@@ -853,10 +853,13 @@ dialog div h1 {
 }
 
 .container-donation .title{
+    background: linear-gradient(90deg, rgb(52, 164, 0), #b26200);
+    background-clip: text;
     height: 50px;
     display: flex;
-    color: rgb(27, 80, 2);
+    color: transparent;
     font-size: 30px;
+    font-weight: bolder;
     letter-spacing: 2px;
     margin: 30px;
     width: 70vw;
@@ -883,12 +886,14 @@ dialog div h1 {
     object-fit: cover;
 }
 .container-donation #content {
-    margin-top: -3px;
-    height: 51vh;
-    padding: 40px;
+    border: 2px solid #ffffff;
+    font-weight: lighter;
+    margin-top: -0px;
+    height: 50vh;
+    padding: 1em;
     position: absolute;
     backdrop-filter: blur(3px);
-    background-color: #97979727;
+    background: radial-gradient(#ffffffaa,#52525258);
     font-size: calc(0.5em + 1.4vw);
     letter-spacing: 3px; 
     z-index: 1;
@@ -896,6 +901,7 @@ dialog div h1 {
     width: 34vw;
     border-radius: 25px;
     margin-left: 40px;
+    color: #a55500f7;
 }
 
 .container-donation .donation-img{
